@@ -1,0 +1,34 @@
+.chessBoardContainer {
+	flex: 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #afafaf;
+}
+
+.chessBoard {
+	display: grid;
+	grid-template-columns: repeat(8, 80px);
+	grid-template-rows: repeat(8, 80px);
+}
+
+.chessBoard .tile {
+	width: 80px;
+	height: 80px;
+}
+
+.chessBoard .black-tile {
+	background-color: #568f95;
+}
+
+.chessBoard .white-tile {
+	background-color: #ebecd0;
+}
+
+.tile .chess-piece {
+	width: 80px;
+	height: 80px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60px;
+}

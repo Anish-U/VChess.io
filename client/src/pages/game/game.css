@@ -1,0 +1,12 @@
+.homeContainer {
+	display: flex;
+}
+
+.videoContainer {
+	flex: 1;
+	padding: 10px;
+	height: 100vh;
+	background-color: #3c3c3c;
+	display: flex;
+	flex-direction: column;
+}

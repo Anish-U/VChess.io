@@ -1,0 +1,7 @@
+{
+  "name": "vchess.io",
+  "version": "1.0.0",
+  "description": "real-time chess game along with video and audio sharing",
+  "author": "Ummenthala Anish <ummenthala.anish@gmail.com>",
+  "license": "ISC"
+}
